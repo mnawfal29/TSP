@@ -14,15 +14,15 @@ Folder directory:
 3. Images - Contains images for current default matrix in matrix.txt
 
 Files inside both Directories:
-app - precompiled app for linux only
-a.dot - Contains graphviz code
-main.cpp - The main program code
-graph_include.app - Contains all the necessary functions for rendering the graph and other helper functions and definitions
-matrix.txt - Contains the default matrix. Can be changed depending on use case
-matrix_examples - Contains some examples. Not used for running the code.
-randomgen.cpp - Generates random matrices
+1. app - precompiled app for linux only
+2. a.dot - Contains graphviz code
+3. main.cpp - The main program code
+4. graph_include.app - Contains all the necessary functions for rendering the graph and other helper functions and definitions
+5. matrix.txt - Contains the default matrix. Can be changed depending on use case
+6. matrix_examples - Contains some examples. Not used for running the code.
+7. randomgen.cpp - Generates random matrices
 
 NOTE:
-To change resolution/size of final image change the size parameter in rendergraph[present in graph_include.h] from 15, 15! to required size. Don't forget the !
+-To change resolution/size of final image change the size parameter in rendergraph[present in graph_include.h] from 15, 15! to required size. Don't forget the !
 
-To get intermediate images for backtracking uncomment the lines in backtracking.cpp
+-To get intermediate images for backtracking uncomment the lines in backtracking.cpp
