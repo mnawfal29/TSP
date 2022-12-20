@@ -1,3 +1,5 @@
+# Travelling Salesman Problem
+
 How to Compile and Run:
 Compile: g++ main.cpp graph_include.cpp brute.cpp greedy_heuristic.cpp branch_bound.cpp nearestNeighbour.cpp backtracking.cpp -o app
 Run: ./app
